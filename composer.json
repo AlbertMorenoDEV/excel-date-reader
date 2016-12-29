@@ -1,0 +1,24 @@
+{
+    "name": "albertmorenodev/excel-date-reader",
+    "description": "Get DateTime from Excel file.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlbertMorenoDEV",
+            "email": "albert.moreno.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExcelDateReader\\": "src/"
+        }
+    }
+}
